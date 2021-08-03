@@ -36,22 +36,20 @@
 
     }
       
-      body{
+     
+@media screen and (max-width:480px){
+   body{
         background: url(background.jpg);
          background-size: cover;
       }
-@media screen and (max-width:480px){
-    body{
-        background: url(background.jpg);
-       
-         
-    }
 }
-@media screen and (max-width:750px){
-  body{
-        background: url(background.jpg);
-        
-          background-size: cover;
-    }
+@media screen and (min-width:490px){
+
+body{
+background-image: url(e.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
 }
 
+}
