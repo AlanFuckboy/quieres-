@@ -1,0 +1,55 @@
+.b{
+        text-align: center;
+        
+     
+    }
+  .bn{
+    color: red;
+     display: inline-block;
+     width: 80px;
+     height: 80px;
+     background-color: #0841a0;
+     background-repeat: no-repeat;  
+     border-color: #0000;
+     text-decoration: overline;
+     font-family: cursive;
+     text-decoration: none;
+     max-height: 70px;
+     min-height: 45px;
+     margin-top: 100px;
+
+ }
+          
+    }
+    body{
+        
+        text-align: center;
+    }
+    h3{
+
+    text-align: center;
+      color: midnightblue;
+      max-height: 30px;
+      min-height: 20px;
+
+    }
+      
+      body{
+        background: url(background.jpg);
+         background-size: cover;
+      }
+@media screen and (max-width:480px){
+    body{
+        background: url(background.jpg);
+       
+         
+    }
+}
+@media screen and (max-width:750px){
+  body{
+        background: url(background.jpg);
+        
+          background-size: cover;
+    }
+}
+
