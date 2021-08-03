@@ -4,7 +4,7 @@
      
     }
   .bn{
-    color: red;
+    color: white;
      display: inline-block;
      width: 80px;
      height: 80px;
@@ -19,6 +19,7 @@
      margin-top: 100px;
            margin-right: 20px;
      margin-left: 20px;
+     border-radius: 10px;
 
  }
           
@@ -30,7 +31,7 @@
     h3{
 
     text-align: center;
-      color: midnightblue;
+      color: black;
       max-height: 30px;
       min-height: 20px;
 
@@ -46,7 +47,7 @@
 @media screen and (min-width:490px){
 
 body{
-background-image: url(e.jpg);
+background: linear-gradient(to bottom right, blue, white);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
